@@ -1,0 +1,10 @@
+# node names we will refer to in graph
+EXTRACT = "extract"
+GENERATE_STRUCTURE = "generate_structure"
+USER_REVIEW_STRUCTURE = "review_structure"
+GENERATE_SECTION = "generate_section"
+USER_REVIEW_SECTION = "review_section"
+CONCATENATE_SECTIONS = "concatenate_sections"
+CONTINUE = "continue"
+REORDER_DELETE = "reorder_or_delete"
+EXPORT = "export"
