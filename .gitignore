@@ -1,5 +1,7 @@
 *.pyc
 .DS_Store
+# Microsoft Word lock files
+~$*.docx
 .env
 .idea/
 .ipynb_checkpoints/

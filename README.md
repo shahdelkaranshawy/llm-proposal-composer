@@ -31,16 +31,16 @@ Python, LangGraph, LangChain, OpenAI API, Streamlit, PyPDF2, python-docx.
 
 ## Demo
 
-Streamlit UI (structure / section workflow):
+Streamlit UI (representative screen):
 
-![Streamlit proposal composer UI](docs/ui-screenshot.png)
+![Proposal composer UI](docs/ui-screenshot.png)
 
-**Sample generated output:** [`docs/sample-generated-proposal.pdf`](docs/sample-generated-proposal.pdf) — illustrative example from the pipeline; **not** a real customer RFP or confidential material.
+**Sample output:** [`docs/sample-generated-proposal.pdf`](docs/sample-generated-proposal.pdf) — synthetic / anonymized example of exported proposal content (not a real RFP or customer).
 
 ## Documentation
 
 - `docs/proposal-writing-workflow.pdf` — proposal writing / workflow notes (exported from coursework).
-- `docs/sample-generated-proposal.pdf` — sample exported proposal (synthetic / portfolio illustration).
+- `docs/sample-generated-proposal.pdf` — sample generated proposal (illustrative export).
 - `architecture/workflow-diagram.png` — LangGraph workflow diagram.
 
 ## Architecture (high level)
