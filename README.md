@@ -29,9 +29,18 @@ Python, LangGraph, LangChain, OpenAI API, Streamlit, PyPDF2, python-docx.
 
 - Faster, more consistent proposal drafts with a clear audit trail of user approvals in the UI session.
 
+## Demo
+
+Streamlit UI (structure / section workflow):
+
+![Streamlit proposal composer UI](docs/ui-screenshot.png)
+
+**Sample generated output:** [`docs/sample-generated-proposal.pdf`](docs/sample-generated-proposal.pdf) — illustrative example from the pipeline; **not** a real customer RFP or confidential material.
+
 ## Documentation
 
 - `docs/proposal-writing-workflow.pdf` — proposal writing / workflow notes (exported from coursework).
+- `docs/sample-generated-proposal.pdf` — sample exported proposal (synthetic / portfolio illustration).
 - `architecture/workflow-diagram.png` — LangGraph workflow diagram.
 
 ## Architecture (high level)
@@ -72,7 +81,10 @@ streamlit run streamlit_app.py
 ├── streamlit_app.py
 ├── main.py
 ├── requirements.txt
-└── docs/proposal-writing-workflow.pdf
+└── docs/
+    ├── proposal-writing-workflow.pdf
+    ├── sample-generated-proposal.pdf
+    └── ui-screenshot.png
 ```
 
 ## API keys
